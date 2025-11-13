@@ -1,6 +1,23 @@
 export default function Home() {
   return (
     <main className="min-h-screen bg-gradient-to-b from-orange-50 to-white dark:from-gray-900 dark:to-gray-800">
+      {/* Navigation */}
+      <nav className="border-b border-gray-200 dark:border-gray-700">
+        <div className="container mx-auto px-4 py-4">
+          <div className="flex justify-between items-center">
+            <a href="/" className="text-xl font-bold text-gray-900 dark:text-white">
+              Claude Code
+            </a>
+            <a
+              href="/about"
+              className="text-gray-700 dark:text-gray-300 hover:text-orange-600 dark:hover:text-orange-400 transition-colors"
+            >
+              회사 소개
+            </a>
+          </div>
+        </div>
+      </nav>
+
       {/* Hero Section */}
       <div className="container mx-auto px-4 py-16">
         <div className="text-center mb-16">
